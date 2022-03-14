@@ -12,31 +12,3 @@ As a software developer, you are required to develop  a web-based application fo
 **For developing a web-based application for WIS**, you have to work in a team together with other two (2) software developers i.e. Michael and Jimmy. Your team have planned to develop a web application using open source technologies such as PHP as server-side script, and MySQL in the back-end. 
 
 For code integration and delivery, Michael and Jimmy are keen to use continuous integration and delivery tools. You have been asked to attempt following task before starting web-based application development.
-
-## DB Structure
-
-Programs, Lecturer’s information, Student’s information, Student Marks, and Students’ parent information and students’ tuition fee.
-
-
-- Students App
-    - Student Table:
-        - Name:
-        - Father Name:
-        - Mother Name:
-    - Marks Table:
-        - Student (FK)
-        - Subject:
-        - Marks:
-    - Student Fee:
-        - Student (FK)
-        - Fee
-        - Submitted_on
-
-- Programs App
-    - Program Table:
-        - Program type
-        - Program Name
-        - Program Time
-    - Lecturer's Table:
-        - Name
-        - Program (FK)
