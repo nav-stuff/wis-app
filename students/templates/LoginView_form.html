@@ -1,0 +1,12 @@
+<html>
+    <head>
+        <title>LoginView</title>
+    </head>
+    <body>
+        Are you a new user? <a href="{% url 'signup' %}">Click Here</a> to SignUp
+        <form method="POST">{% csrf_token %}
+            {{ form.as_p }} 
+            <input type="submit" name="sumbit" value="Login">
+        </form>
+    </body>
+</html>

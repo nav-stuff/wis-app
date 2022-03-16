@@ -1,0 +1,13 @@
+<html>
+    <head>
+        <title>SignUp View</title>
+    </head>
+    <body>
+        <form method="POST">{% csrf_token %}
+            <div><label for="username">Username<input type="text" name="username" id="username" required></label></div>
+            <div><label for="name">Name<input type="text" name="name" id="name" required></label></div>
+            <div><label for="password">Password<input type="password" name="password" id="password" required></label></div>
+            <input type="submit" name="sumbit" value="SignUp">
+        </form>
+    </body>
+</html>
